@@ -9,7 +9,7 @@ net install xtivdfreg, from(http://www.kripfganz.de/stata/) replace
 ```
 
 ## Description
-This repository contains the Stata package xtivdfreg, which implements the Instrumental Variables approach of Cui, Norkute, Sarafidis and Yamagata (2021, 2022), for the estimation of panel data models with unobserved common factors. 
+This repository contains a README file for the Stata package xtivdfreg, which implements the Instrumental Variables approach of Cui, Norkute, Sarafidis and Yamagata (2021, 2022), for the estimation of panel data models with unobserved common factors. 
 <br />
 For a theorertical exposition of this approach, please refer to the following video and the references therein: [Panel Data Regression with Unobserved Factors: Novel IV Estimation & Stata Illustration (Part 1)](https://www.youtube.com/watch?v=VHX7zM2ui_I).
 <br />
@@ -136,7 +136,11 @@ xtivdfreg lY lL lK trend, absorb(list) iv(lL, lags(2)) iv(lK, lags(3)) iv(trend,
 
 
 ## References
+Ahn, S. C. and A. R: Horenstein (2013). Eigenvalue Ratio Test for the Number of Factors, *Econometrica*, Vol. 81(3), 1203-1227.
+
 Cui, G., Norkute, M., Sarafidis, V., and T. Yamagata (2022). Two-Stage Instrumental Variable Estimation of Linear Panel Data Models with Interactive Effects, *The Econometrics Journal*, Vol. 25(2), 340-361.
+
+Eberhardt, M. and F. Teal (2010). Productivity Analysis in Global Manufacturing Production, *Economics Series Working Papers 15*, University of Oxford, Department of Economics.
 
 Kripfganz, S., and V. Sarafidis (2021). Instrumental-variable estimation of large-T panel-data models with common factors, *The Stata Journal*, Vol. 21(3), 1-28.
 
